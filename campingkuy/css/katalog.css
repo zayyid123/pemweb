@@ -1,0 +1,31 @@
+/* product katalog*/
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.product-semua {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tag_katalog {
+    text-align: center;
+    background-color: #333f4c;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.card-text {
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+}
