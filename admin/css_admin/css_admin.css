@@ -1,0 +1,282 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* Side Bar*/
+
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+.wrapper {
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    transition: none;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #333f4c;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar-header {
+    color: white;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+.admin_icon {
+    color: #fff;
+    padding: 10px;
+}
+
+.admin_icon i {
+    margin-right: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #202529;
+    background: orange;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nyala {
+    color: #fff;
+    background: #5a6a7a;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #47525e;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* kuy */
+.kuy {
+    color: orange;
+}
+
+/* btn */
+.container-fluid .btn {
+    background-color: orange;
+    border: 3px solid #47525e;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+    margin-left: -5%;
+}
+
+.btn span {
+    font-weight: bold;
+}
+
+.icon_nav {
+    padding: 5px;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.icon_nav span {
+    margin-left: 6px;
+}
+
+/* ============================ animasi sidebar ============================ */
+.side-dashboard.mulai-anm {
+    background-color: orange;
+    color: #202529;
+}
+
+.side-data-barang.mulai-anm {
+    background-color: orange;
+    color: #202529;
+}
+
+.side-data-konsumen.mulai-anm {
+    background-color: orange;
+    color: #202529;
+}
+
+.side-transaksi.mulai-anm {
+    background-color: orange;
+    color: #202529;
+}
+
+/* ============================ data transaksi ============================= */
+.data-transaksi {
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+}
+
+.logo_data_transaksi {
+    color: orange;
+}
+
+/* ============================ data barang ================================ */
+.row .col h1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #303F4B;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.tombol-aksi {
+    margin: 3px;
+}
+
+.data-barang {
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+}
+
+.table {
+    text-align: center;
+}
+
+.table tr td {
+    color: black;
+}
+
+.table tbody {
+    background-color: white;
+}
+
+.table thead {
+    background-color: rgb(196, 127, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.logo_data_barang {
+    color: orange;
+}
+
+/* ================== halaman konsumen ===================== */
+
+.data-konsumen {
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+}
+
+.logo_data_konsumen {
+    color: orange;
+}
+
+/* =================== dasboard =========================== */
+
+.dashboard .card {
+    margin-top: 10px;
+    border-left: 4px solid #202529;
+    padding-right: 4px;
+}
+
+.dashboard .card h5 {
+    color: #202529;
+    margin-top: -8px;
+}
+
+.dashboard {
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.dashboard .logo_dashboard {
+    color: orange;
+}
+
+/* ======================== navbar atas =================== */
+.navbar .navbar-dark .bg-dark {
+    z-index: -11;
+}
+
+.nama_akun {
+    margin: 5px;
+}
+
+table tr td label {
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sekat {
+    margin-bottom: 5px;
+}

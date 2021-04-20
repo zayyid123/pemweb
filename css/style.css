@@ -1,0 +1,329 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #333f4c !important;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid orange;
+    margin-top: -2px;
+}
+
+.kuy {
+    color: orange;
+}
+
+.d-block {
+    width: 940px;
+    height: 400px;
+}
+
+/* info panel */
+.info-panel {
+    background-color: #333f4c;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+.info-panel .icon-info {
+    width: 100px;
+    height: 100px;
+    background-color: #d4d8dd;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.info-panel h4 {
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    color: white;
+}
+
+/* cara kerja */
+.cara-kerja {
+    background-color: #f1f1f1;
+    color: #333f4c;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* produk all */
+.card-text {
+    width: 300px;
+    height: 90px;
+    color: #333333;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* tentang */
+.tentang {
+    padding: 30px;
+    margin-top: 10px;
+    background-color: #333f4c;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.tentang .jdl {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    color: #333f4c;
+    font-weight: bold;
+}
+
+.tentang a {
+    color: orange;
+}
+
+.tentang p {
+    color: white;
+}
+
+.tentang h3 {
+    color: white;
+}
+
+.tentang a:hover {
+    color: gray;
+}
+
+/* kontak */
+.kontak {
+    margin-top: -40px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.kontak .main {
+    text-align: center;
+}
+
+.item .fa {
+    font-size: 50px;
+    color: orange;
+    background-color: #333f4c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main .item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    background-color: #333f4c;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+/* animasi fade */
+.anm {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.anm.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.anm1 {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.anm1.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.anm2 {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.anm2.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* =======================================  cart =================== */
+/* ========================= button ======== */
+.tooltip {
+    color: white;
+    text-align: center;
+    right: 60px;
+    bottom: 10px;
+    width: 90px;
+    height: 25px;
+    background-color: #EC2947;
+    border-radius: 10px;
+}
+
+.button_cart:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tooltip::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: #EC2947;
+    left: 70px;
+    bottom: 5px;
+    transform: translateX(50%) rotate(48deg);
+}
+
+.button_cart {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* =====================akhir button=============== */
+.cart {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+.cart .cart_produk {
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cart .perhitungan_cart {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 25px;
+    height: 250px;
+}
+
+.cart .cart_produk img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cart .cart_produk .title {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.cart .cart_produk .price {
+    font-size: 15px;
+}
+
+.cart .cart_produk .btn {
+    margin-top: 20px;
+}
+
+.cart .button_kosongkan_cart {
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+/* ========================================akhir cart =================== */
+
+
+/* tablet */
+@media (min-width: 992px) {
+    .d-block {
+        width: 940px;
+        height: 400px;
+    }
+
+    .info-panel {
+        background-color: #333f4c;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        margin-top: -50px;
+        padding: 20px;
+    }
+
+    .col-lg img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* tablet sedang */
+@media (max-width: 768px) {
+    .navbar ul li:hover {
+        border-bottom: none;
+        margin-top: 0;
+    }
+}
+
+/* hp */
+@media (max-width: 576px) {
+    .d-block {
+        width: 650px;
+        height: 250px;
+    }
+
+    .info-panel {
+        background-color: #333f4c;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        margin-top: -35px;
+        padding: 20px;
+    }
+
+    .col-lg img {
+        width: 66px;
+        height: 66px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar ul li:hover {
+        border-bottom: none;
+        margin-top: 0;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+.login {
+    text-align: center;
+    color: #54575a;
+    margin-top: 70px;
+}
+
+.kuy {
+    color: orange;
+}
+
+.link-login:hover {
+    color: #54575a;
+}
+
+.link-login:active {
+    color: #54575a;
+}
+
+.link-login:link {
+    color: #54575a;
+}
+
+.checkbox {
+    text-align: left;
+}
+
+.logo {
+    font-weight: bold;
+}
